@@ -9,25 +9,25 @@
 resource "pagerduty_user" "catelyn_stark" {
   name  = "Catelyn Stark"
   email = "catelyn_stark@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "robb_stark" {
   name  = "Robb Stark"
   email = "robb_stark@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "arya_stark" {
   name  = "Arya Stark"
   email = "arya_stark@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "sansa_stark" {
   name  = "Sansa Stark"
   email = "sansa_stark@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "eddard_stark" {
@@ -42,25 +42,25 @@ resource "pagerduty_user" "eddard_stark" {
 resource "pagerduty_user" "cersei_lannister" {
   name  = "Cersei Lannister"
   email = "cersei_lannister@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "jamie_lannister" {
   name  = "Jaime Lannister"
   email = "jamie_lannister@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "tyrion_lannister" {
   name  = "Tyrion Lannister"
   email = "tyrion_lannister@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "lancel_lannister" {
   name  = "Lancel Lannister"
   email = "lancel_lannister@example.com"
-  role  = "limited_user"
+  role  = "observer"
 }
 
 resource "pagerduty_user" "tywin_lannister" {
