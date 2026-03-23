@@ -4,31 +4,31 @@
 */
 
 /* 
-  Support
+  kawabunga
 */
 resource "pagerduty_team_membership" "catelyn_stark" {
   user_id = pagerduty_user.catelyn_stark.id
-  team_id = pagerduty_team.support.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 resource "pagerduty_team_membership" "robb_stark" {
   user_id = pagerduty_user.robb_stark.id
-  team_id = pagerduty_team.support.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 resource "pagerduty_team_membership" "arya_stark" {
   user_id = pagerduty_user.arya_stark.id
-  team_id = pagerduty_team.support.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 resource "pagerduty_team_membership" "sansa_stark" {
   user_id = pagerduty_user.sansa_stark.id
-  team_id = pagerduty_team.support.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 resource "pagerduty_team_membership" "eddard_stark" {
   user_id = pagerduty_user.eddard_stark.id
-  team_id = pagerduty_team.support.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 /* 
@@ -64,12 +64,12 @@ resource "pagerduty_team_membership" "tywin_lannister" {
 */
 resource "pagerduty_team_membership" "daenerys_targaryen" {
   user_id = pagerduty_user.daenerys_targaryen.id
-  team_id = pagerduty_team.it_management.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 resource "pagerduty_team_membership" "davos_seaworth" {
   user_id = pagerduty_user.davos_seaworth.id
-  team_id = pagerduty_team.it_management.id
+  team_id = pagerduty_team.kawabunga.id
 }
 
 /* 

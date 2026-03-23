@@ -54,7 +54,7 @@ JSON
       value = <<JSON
       [
         {
-          "id": "${pagerduty_team.it_management.id}",
+          "id": "${pagerduty_team.kawabunga.id}",
           "type": "team"
         },
         {
