@@ -25,7 +25,7 @@
 */
 resource "pagerduty_event_orchestration" "support_eo" {
   name = "Support: Ingest All Events"
-  team = pagerduty_team.support.id
+  team = pagerduty_team.kawabunga.id
 }
 
 resource "pagerduty_event_orchestration_router" "support_eo_router" {

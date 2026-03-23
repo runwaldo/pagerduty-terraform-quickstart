@@ -4,7 +4,7 @@
 */
 
 /* 
-  Support
+  kawabunga
 */
 resource "pagerduty_user" "catelyn_stark" {
   name  = "Catelyn Stark"
@@ -70,7 +70,7 @@ resource "pagerduty_user" "tywin_lannister" {
 }
 
 /* 
-  IT Management
+  kawabunga (IT Management)
 */
 resource "pagerduty_user" "daenerys_targaryen" {
   name  = "Daenerys Targaryen"
